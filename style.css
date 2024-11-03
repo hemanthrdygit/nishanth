@@ -367,14 +367,14 @@ a:hover {
   .navitem {
     margin-right: 10px;
     font-size: 0.8rem;
+    font-weight: 500;
   }
   .resumebtn {
     font-size: 0.6rem;
     padding: 8px 20px;
   }
   .resumebtn i {
-    margin-inline: 1px;
-    display: none;
+    margin-inline: 2px;
   }
   .into {
     font-size: 0.8rem;
@@ -428,6 +428,7 @@ a:hover {
   }
   .projhead h3 {
     font-size: 2rem;
+    margin-bottom: 30px;
   }
   .projarea {
     flex-direction: column;
