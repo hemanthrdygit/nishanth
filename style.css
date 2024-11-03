@@ -98,7 +98,15 @@ a:hover {
   width: 40%;
   line-height: 2rem;
   font-size: 1.5rem;
-  margin-bottom: 150px;
+  margin-bottom: 40px;
+}
+.temp{
+  position: relative;
+  background-color: black;
+  padding: 12px 24px;
+  color: white;
+  border-radius: 30px;
+  margin-bottom: 110px;
 }
 .about {
   position: relative;
@@ -380,6 +388,9 @@ a:hover {
     font-size: 0.8rem;
     line-height: 1.2rem;
     width: 80%;
+    margin-bottom: 30px;
+  }
+  .temp{
     margin-bottom: 100px;
   }
   .img {
@@ -485,7 +496,7 @@ a:hover {
   }
   .contact {
     padding-inline: 20px;
-    padding-block: 50px;
+    padding-block: 10px;
   }
   .form {
     width: 90%;
