@@ -1,0 +1,508 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  height: 100vh;
+  min-height: 100vh;
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 70px;
+  align-items: center;
+}
+.navitem {
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-right: 25px;
+  cursor: pointer;
+  transition: 0.5s ease transform;
+}
+a:hover {
+  color: cornflowerblue;
+  transform: scale(1.1);
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resumebtn {
+  font-size: 1.2rem;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s ease transform;
+}
+.resumebtn i {
+  margin-inline: 5px;
+  transform: rotate(-135deg);
+}
+.resumebtn:hover {
+  transform: scale(1.1);
+}
+.hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1px solid black;
+}
+.img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: lavender;
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+.img::before {
+  content: "Hello 👋";
+  position: relative;
+  top: 10%;
+  left: 70%;
+  background-color: rgb(12, 13, 13);
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+.into {
+  position: relative;
+  text-align: center;
+  width: 40%;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 150px;
+}
+.about {
+  position: relative;
+  width: 100%;
+  background-color: #e1e5f2;
+  padding-block: 100px;
+  padding-inline: 70px;
+}
+.abouthead {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.abouthead h3 {
+  position: relative;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.aboutleg {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutone {
+  position: relative;
+  width: 48%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-inline: 30px;
+  padding-block: 60px;
+  border-radius: 30px;
+  margin-block: 50px;
+}
+.aboutone h3 {
+  font-size: 3rem;
+  margin-block: 30px;
+}
+.aboutone p {
+  position: relative;
+  font-size: 1.1rem;
+  font-style: italic;
+  letter-spacing: 0.9px;
+  font-family: "Raleway", sans-serif;
+}
+.abouttwo {
+  position: relative;
+  width: 48%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-inline: 30px;
+  padding-block: 82px;
+  border-radius: 30px;
+  margin-block: 50px;
+}
+.abouttwo h3 {
+  font-size: 3rem;
+  margin-block: 30px;
+}
+.abouttwo p {
+  position: relative;
+  font-size: 1.1rem;
+  font-style: italic;
+  letter-spacing: 0.9px;
+  font-family: "Raleway", sans-serif;
+}
+.projects {
+  position: relative;
+  width: 100%;
+  padding-block: 100px;
+  padding-inline: 70px;
+  background-color: #cce3de;
+}
+.projhead {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  margin-block: 40px;
+}
+.projhead h3 {
+  position: relative;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.projarea {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projone {
+  position: relative;
+  width: 48%;
+  height: 100%;
+  padding-block: 70px;
+  padding-inline: 60px;
+  background-color: white;
+  border-radius: 30px;
+}
+.projone h3 {
+  position: relative;
+  font-size: 2rem;
+  margin: 10px;
+  font-weight: 400;
+}
+.projone img {
+  border-radius: 10px;
+}
+.projtwo {
+  position: relative;
+  width: 48%;
+  height: 100%;
+  padding-block: 70px;
+  padding-inline: 60px;
+  background-color: white;
+  border-radius: 30px;
+}
+.projtwo h3 {
+  position: relative;
+  font-size: 2rem;
+  margin: 15px;
+  font-weight: 400;
+}
+.projtwo img {
+  border-radius: 10px;
+}
+.skills {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 30px;
+  padding-block: 150px;
+}
+.skills h3 {
+  font-size: 6rem;
+  font-weight: 400;
+}
+.oneskills {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 30px;
+  padding-block: 50px;
+  gap: 20px;
+}
+.skillitem {
+  position: relative;
+  font-size: 1.2rem;
+  background-color: rgb(39, 39, 39);
+  padding: 12px 24px;
+  border-radius: 15px;
+  color: white;
+}
+.contact {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 30px;
+}
+.form {
+  position: relative;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.name {
+  position: relative;
+  width: 70%;
+  height: 50px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  margin: 10px;
+  background-color: aliceblue;
+}
+.name::placeholder {
+  padding-left: 10px;
+}
+.email {
+  position: relative;
+  width: 70%;
+  height: 50px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  background-color: aliceblue;
+  margin: 10px;
+}
+.email::placeholder {
+  padding-left: 10px;
+}
+.message {
+  position: relative;
+  width: 70%;
+  height: 250px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  background-color: aliceblue;
+  margin: 10px;
+  resize: none;
+}
+.message::placeholder {
+  padding-left: 10px;
+}
+.submit {
+  position: relative;
+  width: 20%;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.contact h3 {
+  position: relative;
+  color: white;
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    padding-inline: 20px;
+  }
+  .navitem {
+    margin-right: 10px;
+    font-size: 0.8rem;
+  }
+  .resumebtn {
+    font-size: 0.6rem;
+    padding: 8px 20px;
+  }
+  .resumebtn i {
+    margin-inline: 1px;
+    display: none;
+  }
+  .into {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    width: 80%;
+    margin-bottom: 100px;
+  }
+  .img {
+    margin-top: 80px;
+  }
+  .about {
+    padding-block: 60px;
+    padding-inline: 20px;
+  }
+  .abouthead h3 {
+    font-size: 2rem;
+  }
+  .aboutleg {
+    flex-direction: column;
+  }
+  .aboutone {
+    width: 100%;
+    height: 48%;
+    margin-block: 20px;
+    padding-block: 40px;
+  }
+  .aboutone h3 {
+    font-size: 1rem;
+  }
+  .aboutone p {
+    font-size: 0.7rem;
+  }
+  .abouttwo {
+    width: 100%;
+    height: 48%;
+    margin-block: 20px;
+    padding-block: 40px;
+  }
+  .abouttwo h3 {
+    font-size: 1rem;
+  }
+  .abouttwo p {
+    font-size: 0.7rem;
+  }
+  .projects {
+    padding-block: 50px;
+    padding-inline: 20px;
+  }
+  .projhead {
+    margin-block: 20px;
+  }
+  .projhead h3 {
+    font-size: 2rem;
+  }
+  .projarea {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .projone {
+    width: 100%;
+    height: 48%;
+    padding-inline: 10px;
+    padding-block: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .projone h3 {
+    font-size: 1rem;
+  }
+  .projone img {
+    width: 200px;
+    height: 100px;
+  }
+  .projtwo {
+    width: 100%;
+    height: 48%;
+    padding-inline: 10px;
+    padding-block: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .projtwo h3 {
+    font-size: 1rem;
+  }
+  .projtwo img {
+    width: 200px;
+    height: 100px;
+  }
+  .skills {
+    padding-inline: 20px;
+    padding-block: 30px;
+  }
+  .skills h3 {
+    font-size: 2rem;
+  }
+  .oneskills {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skillitem {
+    font-size: 0.8rem;
+  }
+  .contact {
+    padding-inline: 20px;
+    padding-block: 50px;
+  }
+  .form {
+    width: 90%;
+  }
+  .name {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  .email {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  .message {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  .contact h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .submit {
+    width: 60%;
+    font-size: 0.7rem;
+  }
+}
